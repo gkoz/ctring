@@ -1,0 +1,12 @@
+[package]
+name = "ctring"
+version = "0.0.1"
+authors = ["Gleb Kozyrev <gleb@gkoz.com>"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+clippy = {version = "*", optional = true}
+libc = "0.2"
+
+[dev-dependencies]
+lazy_static = "0.1"
